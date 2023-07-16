@@ -17,7 +17,7 @@ const TypesOfFruit = () => {
 const Fruits = () => {
   return (
     <div id="fruits">
-      { <TypesOfFruit/> }
+      <TypesOfFruit/> 
 
       { /* Change code above this line */ }
     </div>
@@ -28,7 +28,7 @@ const App = () => {
   return (
     <div id="main">
       <h1>Types of Food:</h1>
-      { <Fruits/>}
+      <Fruits/>
 
       { /* Change code above this line */ }
     </div>
